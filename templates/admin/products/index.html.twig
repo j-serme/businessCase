@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Tableau des produits {% endblock %}
+
+{% block body %}
+
+  <h1 class="text-center my-5">Gestion de vos produits</h1>
+
+<table class="table table-hover table-striped">
+  <thead>
+  <tr class="text-center">
+    <th scope="col">ID</th>
+    <th scope="col">Nom</th>
+    <th scope="col">Marque</th>
+    <th scope="col">Description</th>
+    <th scope="col">Prix</th>
+    <th scope="col">Quantité</th>
+    <th scope="col">Actif</th>
+    <th scope="col">Catégorie</th>
+
+  </tr>
+  </thead>
+  <tbody>
+
+  {% for product in products %}
+  <tr class="table-light text-center">
+
+
+    <th scope="row">{{ product.id }}</th>
+    <td class="text-uppercase">{{ product.name }}</td>
+    <td class="text-uppercase">{{ product.brand }}</td>
+    <td class="text-uppercase">{{ product.description }}</td>
+    <td class="text-uppercase">{{ product.price }}</td>
+    <td class="text-uppercase">{{ product.quantity }}</td>
+    <td class="text-uppercase">{{ product.isActive }}</td>
+    <td class="text-uppercase">{{ product.category.name }}</td>
+
+    <td><a href="{{ path('product_change', {id:product.id}) }}" class="text-uppercase btn btn-outline-dark">Modifier</a>
+    <a href="{{ path('product_delete', {id:product.id}) }}" class="text-uppercase btn btn-outline-danger">Supprimer</a></td>
+
+
+  </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
+
+  <a href="{{ path('admin') }}" class="btn btn-outline-dark">RETOUR</a>
+
+{% endblock %}
