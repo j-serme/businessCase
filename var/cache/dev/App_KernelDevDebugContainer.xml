@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services https://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.project_dir">/home/julien/Documents/Projet/testDev-testing_branch</parameter>
+    <parameter key="kernel.project_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
     <parameter key="kernel.debug">true</parameter>
-    <parameter key="kernel.build_dir">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev</parameter>
-    <parameter key="kernel.cache_dir">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">/home/julien/Documents/Projet/testDev-testing_branch/var/log</parameter>
+    <parameter key="kernel.build_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev</parameter>
+    <parameter key="kernel.cache_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/log</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SensioFrameworkExtraBundle">Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle</parameter>
@@ -21,55 +21,60 @@
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
       <parameter key="TwigExtraBundle">Twig\Extra\TwigExtraBundle\TwigExtraBundle</parameter>
       <parameter key="VichUploaderBundle">Vich\UploaderBundle\VichUploaderBundle</parameter>
+      <parameter key="WebpackEncoreBundle">Symfony\WebpackEncoreBundle\WebpackEncoreBundle</parameter>
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/framework-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/sensio/framework-extra-bundle/src</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/sensio/framework-extra-bundle/src</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/web-profiler-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/web-profiler-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/monolog-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/debug-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/debug-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="MakerBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/maker-bundle/src</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/maker-bundle/src</parameter>
         <parameter key="namespace">Symfony\Bundle\MakerBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="DoctrineMigrationsBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-migrations-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-migrations-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigExtraBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/twig/extra-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/twig/extra-bundle</parameter>
         <parameter key="namespace">Twig\Extra\TwigExtraBundle</parameter>
       </parameter>
       <parameter key="VichUploaderBundle" type="collection">
-        <parameter key="path">/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle</parameter>
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle</parameter>
         <parameter key="namespace">Vich\UploaderBundle</parameter>
+      </parameter>
+      <parameter key="WebpackEncoreBundle" type="collection">
+        <parameter key="path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/webpack-encore-bundle/src</parameter>
+        <parameter key="namespace">Symfony\WebpackEncoreBundle</parameter>
       </parameter>
     </parameter>
     <parameter key="kernel.charset">UTF-8</parameter>
@@ -109,17 +114,17 @@
     <parameter key="asset.request_context.base_path">null</parameter>
     <parameter key="asset.request_context.secure">null</parameter>
     <parameter key="translator.logging">false</parameter>
-    <parameter key="translator.default_path">/home/julien/Documents/Projet/testDev-testing_branch/translations</parameter>
+    <parameter key="translator.default_path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/translations</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/App_KernelDevDebugContainer.xml</parameter>
+    <parameter key="debug.container.dump">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/App_KernelDevDebugContainer.xml</parameter>
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
     <parameter key="router.resource">kernel::loadRoutes</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
-    <parameter key="serializer.mapping.cache.file">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/serialization.php</parameter>
-    <parameter key="cache.prefix.seed">_/home/julien/Documents/Projet/testDev-testing_branch.App_KernelDevDebugContainer</parameter>
+    <parameter key="serializer.mapping.cache.file">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/serialization.php</parameter>
+    <parameter key="cache.prefix.seed">_/home/julien/Documents/Projet/Business_Case(dev)/businessCase.App_KernelDevDebugContainer</parameter>
     <parameter key="session.metadata.storage_key">_sf2_meta</parameter>
     <parameter key="session.storage.options" type="collection">
       <parameter key="cache_limiter" type="string">0</parameter>
@@ -128,21 +133,21 @@
       <parameter key="cookie_samesite">lax</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
-    <parameter key="session.save_path">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/sessions</parameter>
+    <parameter key="session.save_path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/sessions</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
     <parameter key="form.type_extension.csrf.field_name">_token</parameter>
-    <parameter key="validator.mapping.cache.file">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/validation.php</parameter>
+    <parameter key="validator.mapping.cache.file">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_main_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/profiler</parameter>
     <parameter key="twig.form.resources" type="collection">
       <parameter>@VichUploader/Form/fields.html.twig</parameter>
       <parameter>form_div_layout.html.twig</parameter>
       <parameter>bootstrap_5_layout.html.twig</parameter>
     </parameter>
-    <parameter key="twig.default_path">/home/julien/Documents/Projet/testDev-testing_branch/templates</parameter>
+    <parameter key="twig.default_path">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</parameter>
     <parameter key="web_profiler.debug_toolbar.intercept_redirects">false</parameter>
     <parameter key="web_profiler.debug_toolbar.mode">2</parameter>
     <parameter key="monolog.use_microseconds">true</parameter>
@@ -230,7 +235,7 @@
     <parameter key="doctrine.orm.second_level_cache.cache_configuration.class">Doctrine\ORM\Cache\CacheConfiguration</parameter>
     <parameter key="doctrine.orm.second_level_cache.regions_configuration.class">Doctrine\ORM\Cache\RegionsConfiguration</parameter>
     <parameter key="doctrine.orm.auto_generate_proxy_classes">true</parameter>
-    <parameter key="doctrine.orm.proxy_dir">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/doctrine/orm/Proxies</parameter>
+    <parameter key="doctrine.orm.proxy_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/doctrine/orm/Proxies</parameter>
     <parameter key="doctrine.orm.proxy_namespace">Proxies</parameter>
     <parameter key="doctrine.migrations.preferred_em">null</parameter>
     <parameter key="doctrine.migrations.preferred_connection">null</parameter>
@@ -248,7 +253,7 @@
     <parameter key="vich_uploader.mappings" type="collection">
       <parameter key="products" type="collection">
         <parameter key="uri_prefix">/images/products</parameter>
-        <parameter key="upload_destination">/home/julien/Documents/Projet/testDev-testing_branch/public/images/products</parameter>
+        <parameter key="upload_destination">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/public/images/products</parameter>
         <parameter key="namer" type="collection">
           <parameter key="service">Vich\UploaderBundle\Naming\SmartUniqueNamer.products</parameter>
           <parameter key="options" type="collection"/>
@@ -440,6 +445,10 @@
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
     </service>
+    <service id="App\Repository\CartRepository" class="App\Repository\CartRepository" autowire="true" autoconfigure="true">
+      <tag name="doctrine.repository_service"/>
+      <argument type="service" id="doctrine"/>
+    </service>
     <service id="App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" autoconfigure="true">
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
@@ -455,6 +464,10 @@
     <service id="App\Repository\UserRepository" class="App\Repository\UserRepository" autowire="true" autoconfigure="true">
       <tag name="doctrine.repository_service"/>
       <argument type="service" id="doctrine"/>
+    </service>
+    <service id="App\Service\CartService" class="App\Service\CartService" autowire="true" autoconfigure="true">
+      <argument type="service" id=".session.do-not-use"/>
+      <argument type="service" id="App\Repository\ProductRepository"/>
     </service>
     <service id="argument_metadata_factory" class="Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadataFactory"/>
     <service id="response_listener" class="Symfony\Component\HttpKernel\EventListener\ResponseListener">
@@ -525,7 +538,7 @@
       </argument>
     </service>
     <service id="http_cache.store" class="Symfony\Component\HttpKernel\HttpCache\Store">
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/http_cache</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/http_cache</argument>
     </service>
     <service id="url_helper" class="Symfony\Component\HttpFoundation\UrlHelper">
       <argument type="service" id="request_stack"/>
@@ -535,7 +548,7 @@
       <tag name="container.no_preload"/>
       <argument type="tagged_iterator" tag="kernel.cache_warmer"/>
       <argument>true</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/App_KernelDevDebugContainerDeprecations.log</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/App_KernelDevDebugContainerDeprecations.log</argument>
     </service>
     <service id="cache_clearer" class="Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -583,6 +596,9 @@
         <argument key="form.type.entity" type="service" id="form.type.entity" on-invalid="ignore_uninitialized"/>
         <argument key="security.token_storage" type="service" id="security.token_storage" on-invalid="ignore_uninitialized"/>
         <argument key="cache.security_expression_language" type="service" id="cache.security_expression_language" on-invalid="ignore_uninitialized"/>
+        <argument key="webpack_encore.tag_renderer" type="service" id="webpack_encore.tag_renderer" on-invalid="ignore_uninitialized"/>
+        <argument key="cache.webpack_encore" type="service" id="cache.webpack_encore" on-invalid="ignore_uninitialized"/>
+        <argument key="webpack_encore.entrypoint_lookup[_default]" type="service" id="webpack_encore.entrypoint_lookup[_default]" on-invalid="ignore_uninitialized"/>
         <argument key=".debug.http_client" type="service" id=".debug.http_client" on-invalid="ignore_uninitialized"/>
       </argument>
       <argument type="collection">
@@ -648,6 +664,15 @@
           <argument>setToken</argument>
         </argument>
         <argument key="cache.security_expression_language" type="collection">
+          <argument>reset</argument>
+        </argument>
+        <argument key="webpack_encore.tag_renderer" type="collection">
+          <argument>reset</argument>
+        </argument>
+        <argument key="cache.webpack_encore" type="collection">
+          <argument>reset</argument>
+        </argument>
+        <argument key="webpack_encore.entrypoint_lookup[_default]" type="collection">
           <argument>reset</argument>
         </argument>
         <argument key=".debug.http_client" type="collection">
@@ -723,7 +748,7 @@
       </argument>
       <argument>UTF-8</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <argument type="service">
         <service>
           <argument type="service" id="request_stack"/>
@@ -756,7 +781,7 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument type="service" id="filesystem"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <call method="setName">
         <argument>assets:install</argument>
       </call>
@@ -791,6 +816,7 @@
         <argument>cache.doctrine.orm.default.result</argument>
         <argument>cache.doctrine.orm.default.query</argument>
         <argument>cache.security_expression_language</argument>
+        <argument>cache.webpack_encore</argument>
       </argument>
       <call method="setName">
         <argument>cache:pool:clear</argument>
@@ -825,6 +851,7 @@
         <argument>cache.doctrine.orm.default.result</argument>
         <argument>cache.doctrine.orm.default.query</argument>
         <argument>cache.security_expression_language</argument>
+        <argument>cache.webpack_encore</argument>
       </argument>
       <call method="setName">
         <argument>cache:pool:delete</argument>
@@ -847,6 +874,7 @@
         <argument>cache.doctrine.orm.default.result</argument>
         <argument>cache.doctrine.orm.default.query</argument>
         <argument>cache.security_expression_language</argument>
+        <argument>cache.webpack_encore</argument>
       </argument>
       <call method="setName">
         <argument>cache:pool:list</argument>
@@ -922,7 +950,7 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument>dev</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <call method="setName">
         <argument>debug:dotenv</argument>
       </call>
@@ -971,16 +999,16 @@
       <argument type="service" id="translator.data_collector"/>
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/translations</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/templates</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/translations</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</argument>
       <argument type="collection">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations</argument>
       </argument>
       <argument type="collection">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Email</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -997,16 +1025,16 @@
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
       <argument>en</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/translations</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/templates</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/translations</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</argument>
       <argument type="collection">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations</argument>
       </argument>
       <argument type="collection">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Email</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -1243,7 +1271,7 @@
       <argument></argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -1273,7 +1301,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/app</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/app</argument>
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
@@ -1371,6 +1399,7 @@
         <argument key="cache.property_info" type="service" id="cache.property_info" on-invalid="ignore_uninitialized"/>
         <argument key="cache.validator_expression_language" type="service" id="cache.validator_expression_language" on-invalid="ignore_uninitialized"/>
         <argument key="cache.security_expression_language" type="service" id="cache.security_expression_language" on-invalid="ignore_uninitialized"/>
+        <argument key="cache.webpack_encore" type="service" id="cache.webpack_encore" on-invalid="ignore_uninitialized"/>
       </argument>
     </service>
     <service id="cache.global_clearer" class="Symfony\Component\HttpKernel\CacheClearer\Psr6CacheClearer" public="true">
@@ -1386,6 +1415,7 @@
         <argument key="cache.doctrine.orm.default.result" type="service" id="cache.doctrine.orm.default.result" on-invalid="ignore_uninitialized"/>
         <argument key="cache.doctrine.orm.default.query" type="service" id="cache.doctrine.orm.default.query" on-invalid="ignore_uninitialized"/>
         <argument key="cache.security_expression_language" type="service" id="cache.security_expression_language" on-invalid="ignore_uninitialized"/>
+        <argument key="cache.webpack_encore" type="service" id="cache.webpack_encore" on-invalid="ignore_uninitialized"/>
       </argument>
     </service>
     <service id="identity_translator" class="Symfony\Component\Translation\IdentityTranslator"/>
@@ -1434,9 +1464,14 @@
       <argument type="service" id=".debug.http_client"/>
       <deprecated package="symfony/framework-bundle" version="5.3">The "%service_id%" service is deprecated, use "assets.json_manifest_version_strategy" instead.</deprecated>
     </service>
+    <service id="assets._version__default" class="Symfony\Component\Asset\VersionStrategy\JsonManifestVersionStrategy">
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/public/build/manifest.json</argument>
+      <argument type="service" id=".debug.http_client" on-invalid="null"/>
+      <argument>false</argument>
+    </service>
     <service id="assets._default_package" class="Symfony\Component\Asset\PathPackage">
       <argument></argument>
-      <argument type="service" id="assets.empty_version_strategy"/>
+      <argument type="service" id="assets._version__default"/>
       <argument type="service" id="assets.context"/>
     </service>
     <service id="http_client.abstract_retry_strategy" class="Symfony\Component\HttpClient\Retry\GenericRetryStrategy" abstract="true">
@@ -1550,322 +1585,323 @@
         </argument>
       </argument>
       <argument type="collection">
-        <argument key="cache_dir">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/translations</argument>
+        <argument key="cache_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
           <argument key="af" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.af.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.af.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.af.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.af.xlf</argument>
           </argument>
           <argument key="ar" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.ar.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.ar.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.ar.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.ar.yaml</argument>
           </argument>
           <argument key="az" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.az.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.az.xlf</argument>
           </argument>
           <argument key="be" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.be.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.be.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.be.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.be.xlf</argument>
           </argument>
           <argument key="bg" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.bg.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.bg.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.bg.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.bg.yaml</argument>
           </argument>
           <argument key="bs" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.bs.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.bs.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.bs.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.bs.xlf</argument>
           </argument>
           <argument key="ca" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.ca.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.ca.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.ca.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.ca.yaml</argument>
           </argument>
           <argument key="cs" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.cs.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.cs.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.cs.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.cs.yaml</argument>
           </argument>
           <argument key="cy" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
           </argument>
           <argument key="da" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
           </argument>
           <argument key="de" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.de.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.de.yaml</argument>
           </argument>
           <argument key="el" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
           </argument>
           <argument key="en" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.en.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.en.yaml</argument>
           </argument>
           <argument key="es" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.es.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.es.yaml</argument>
           </argument>
           <argument key="et" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.et.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.et.xlf</argument>
           </argument>
           <argument key="eu" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
           </argument>
           <argument key="fa" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
           </argument>
           <argument key="fi" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.fi.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.fi.yaml</argument>
           </argument>
           <argument key="fr" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.fr.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.fr.yaml</argument>
           </argument>
           <argument key="gl" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
           </argument>
           <argument key="he" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
           </argument>
           <argument key="hr" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
           </argument>
           <argument key="hu" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.hu.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.hu.yaml</argument>
           </argument>
           <argument key="hy" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.hy.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.hy.xlf</argument>
           </argument>
           <argument key="id" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
           </argument>
           <argument key="it" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.it.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.it.yaml</argument>
           </argument>
           <argument key="ja" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
           </argument>
           <argument key="lb" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
           </argument>
           <argument key="lt" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.lt.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.lt.yaml</argument>
           </argument>
           <argument key="lv" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
           </argument>
           <argument key="mn" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
           </argument>
           <argument key="my" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.my.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.my.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.my.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.my.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.my.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.my.xlf</argument>
           </argument>
           <argument key="nb" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
           </argument>
           <argument key="nl" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.nl.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.nl.yaml</argument>
           </argument>
           <argument key="nn" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
           </argument>
           <argument key="no" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
           </argument>
           <argument key="pl" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.pl.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.pl.yaml</argument>
           </argument>
           <argument key="pt" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.pt.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.pt.yaml</argument>
           </argument>
           <argument key="pt_BR" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
           </argument>
           <argument key="ro" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
           </argument>
           <argument key="ru" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.ru.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.ru.yaml</argument>
           </argument>
           <argument key="sk" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
           </argument>
           <argument key="sl" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.sl.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.sl.yaml</argument>
           </argument>
           <argument key="sq" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
           </argument>
           <argument key="sr_Cyrl" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
           </argument>
           <argument key="sr_Latn" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
           </argument>
           <argument key="sv" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
           </argument>
           <argument key="th" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
           </argument>
           <argument key="tl" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
           </argument>
           <argument key="tr" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.tr.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.tr.yaml</argument>
           </argument>
           <argument key="uk" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.uk.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.uk.yaml</argument>
           </argument>
           <argument key="uz" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.uz.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.uz.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.uz.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.uz.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.uz.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.uz.xlf</argument>
           </argument>
           <argument key="vi" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
           </argument>
           <argument key="zh_CN" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
           </argument>
           <argument key="zh_TW" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
           </argument>
           <argument key="vn" type="collection">
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations/messages.vn.yaml</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations/messages.vn.yaml</argument>
           </argument>
         </argument>
         <argument key="scanned_directories" type="collection">
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/validator/Resources/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-core/Resources/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/framework-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/sensio/framework-extra-bundle/src/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/web-profiler-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/monolog-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/debug-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/maker-bundle/src/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-migrations-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-bundle/translations</argument>
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/twig/extra-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/validator/Resources/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-core/Resources/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/framework-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/sensio/framework-extra-bundle/src/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/web-profiler-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/monolog-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/debug-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/maker-bundle/src/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-migrations-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/twig/extra-bundle/translations</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/webpack-encore-bundle/src/translations</argument>
         </argument>
         <argument key="cache_vary" type="collection">
           <argument key="scanned_directories" type="collection">
@@ -1885,6 +1921,7 @@
             <argument>vendor/doctrine/doctrine-migrations-bundle/translations</argument>
             <argument>vendor/symfony/security-bundle/translations</argument>
             <argument>vendor/twig/extra-bundle/translations</argument>
+            <argument>vendor/symfony/webpack-encore-bundle/src/translations</argument>
           </argument>
         </argument>
       </argument>
@@ -2117,7 +2154,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <argument type="service_closure" id="debug.file_link_formatter.url_format"/>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -2154,6 +2191,14 @@
         <argument type="collection">
           <argument type="service_closure" id="security.context_listener.0"/>
           <argument>onKernelResponse</argument>
+        </argument>
+        <argument>0</argument>
+      </call>
+      <call method="addListener">
+        <argument>kernel.exception</argument>
+        <argument type="collection">
+          <argument type="service_closure" id="webpack_encore.exception_listener"/>
+          <argument>onKernelException</argument>
         </argument>
         <argument>0</argument>
       </call>
@@ -2598,6 +2643,14 @@
         <argument>0</argument>
       </call>
       <call method="addListener">
+        <argument>kernel.finish_request</argument>
+        <argument type="collection">
+          <argument type="service_closure" id="Symfony\WebpackEncoreBundle\EventListener\ResetAssetsEventListener"/>
+          <argument>resetAssets</argument>
+        </argument>
+        <argument>0</argument>
+      </call>
+      <call method="addListener">
         <argument>Symfony\Component\Security\Http\Event\CheckPassportEvent</argument>
         <argument type="collection">
           <argument type="service_closure" id="security.listener.csrf_protection"/>
@@ -2698,7 +2751,7 @@
       <argument type="service" id=".service_locator.EyZUPFz.router.default"/>
       <argument>kernel::loadRoutes</argument>
       <argument type="collection">
-        <argument key="cache_dir">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev</argument>
+        <argument key="cache_dir">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\CompiledUrlGenerator</argument>
         <argument key="generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\CompiledUrlGeneratorDumper</argument>
@@ -2748,7 +2801,7 @@
       <argument type="service" id="request_stack"/>
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -2815,13 +2868,13 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/annotations.php</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/annotations.php</argument>
       <argument>#^Symfony\\(?:Component\\HttpKernel\\|Bundle\\FrameworkBundle\\Controller\\(?!.*Controller$))#</argument>
       <argument>true</argument>
     </service>
     <service id="annotations.cache_adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <tag name="container.hot_path"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/annotations.php</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -2839,7 +2892,7 @@
     </service>
     <service id="secrets.vault" class="Symfony\Bundle\FrameworkBundle\Secrets\SodiumVault">
       <tag name="container.env_var_loader"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
       <argument type="service" id="secrets.decryption_key" on-invalid="ignore"/>
     </service>
     <service id="secrets.decryption_key" class="Symfony\Component\String\LazyString">
@@ -2848,7 +2901,7 @@
       <factory class="Symfony\Component\String\LazyString" method="fromCallable"/>
     </service>
     <service id="secrets.local_vault" class="Symfony\Bundle\FrameworkBundle\Secrets\DotenvVault">
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/.env.dev.local</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/.env.dev.local</argument>
     </service>
     <service id="serializer" class="Symfony\Component\Serializer\Serializer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -2960,10 +3013,10 @@
           </service>
         </argument>
       </argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/serialization.php</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/serialization.php</argument>
     </service>
     <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/serialization.php</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/serialization.php</argument>
       <argument type="service" id="cache.serializer"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3097,7 +3150,7 @@
       <argument>true</argument>
     </service>
     <service id="session.storage.factory.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorageFactory">
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/sessions</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\MetadataBag">
@@ -3129,7 +3182,7 @@
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler">
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler">
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/sessions</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/sessions</argument>
         </service>
       </argument>
     </service>
@@ -3288,7 +3341,7 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/form/Resources/config/validation.xml</argument>
+          <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/form/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -3316,10 +3369,10 @@
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/validation.php</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/validation.php</argument>
     </service>
     <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/validation.php</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -3528,7 +3581,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage">
-      <argument>file:/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/profiler</argument>
+      <argument>file:/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -3575,7 +3628,7 @@
       <tag name="monolog.logger" channel="profiler"/>
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/App_KernelDevDebugContainer</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/App_KernelDevDebugContainer</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector">
@@ -3632,6 +3685,10 @@
       <call method="addInstance">
         <argument>cache.security_expression_language</argument>
         <argument type="service" id="cache.security_expression_language"/>
+      </call>
+      <call method="addInstance">
+        <argument>cache.webpack_encore</argument>
+        <argument type="service" id="cache.webpack_encore"/>
       </call>
     </service>
     <service id="cache_pool_clearer.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\CachePoolClearerCacheWarmer">
@@ -3770,7 +3827,7 @@
       <argument type="service" id="twig.loader.native_filesystem"/>
       <argument type="collection">
         <argument key="autoescape">name</argument>
-        <argument key="cache">/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/twig</argument>
+        <argument key="cache">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
@@ -3835,6 +3892,12 @@
       <call method="addExtension">
         <argument type="service" id="Vich\UploaderBundle\Twig\Extension\UploaderExtension"/>
       </call>
+      <call method="addExtension">
+        <argument type="service" id="webpack_encore.twig_entry_files_extension"/>
+      </call>
+      <call method="addExtension">
+        <argument type="service" id="webpack_encore.twig_stimulus_extension"/>
+      </call>
       <call method="addGlobal">
         <argument>app</argument>
         <argument type="service" id="twig.app_variable"/>
@@ -3879,10 +3942,10 @@
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator">
       <argument type="service" id="kernel"/>
       <argument type="collection">
-        <argument key="/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Email">email</argument>
-        <argument key="/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+        <argument key="/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Email">email</argument>
+        <argument key="/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
       </argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/templates</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</argument>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer">
       <tag name="kernel.cache_warmer"/>
@@ -3893,68 +3956,68 @@
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader">
       <tag name="twig.loader"/>
       <argument type="collection"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/web-profiler-bundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/web-profiler-bundle/Resources/views</argument>
         <argument>!WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/debug-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/debug-bundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/debug-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/debug-bundle/Resources/views</argument>
         <argument>!Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>!Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
         <argument>DoctrineMigrations</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
         <argument>!DoctrineMigrations</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-bundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/security-bundle/Resources/views</argument>
         <argument>!Security</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/templates</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/templates</argument>
         <argument>VichUploader</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/templates</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/templates</argument>
         <argument>!VichUploader</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/templates</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Email</argument>
         <argument>email</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Email</argument>
         <argument>!email</argument>
       </call>
       <call method="addPath">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader"/>
@@ -3980,7 +4043,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension">
@@ -4065,9 +4128,9 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument type="service" id="twig"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <argument>%kernel.bundles_metadata%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/templates</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
       <call method="setName">
         <argument>debug:twig</argument>
@@ -4101,7 +4164,7 @@
       <argument type="service" id="twig"/>
       <argument>%data_collector.templates%</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -4195,7 +4258,7 @@
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
       <tag name="kernel.reset" method="reset"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/log/dev.log</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/log/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -4255,7 +4318,7 @@
         <argument key="source" type="service">
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -4277,7 +4340,7 @@
         <argument key="source" type="service">
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
-            <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+            <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -4333,8 +4396,8 @@
       <argument type="service" id="filesystem"/>
       <argument type="service" id="maker.autoloader_util"/>
       <argument type="service" id="maker.file_link_formatter"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/templates</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/templates</argument>
     </service>
     <service id="maker.autoloader_finder" class="Symfony\Bundle\MakerBundle\Util\ComposerAutoloaderFinder">
       <argument>App</argument>
@@ -4430,7 +4493,7 @@
       <tag name="maker.command"/>
       <argument type="service" id="maker.file_manager"/>
       <argument type="service" id="maker.doctrine_helper"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
       <argument type="service" id="maker.generator"/>
       <argument type="service" id="maker.entity_class_generator"/>
     </service>
@@ -4502,7 +4565,7 @@
     </service>
     <service id="maker.maker.make_migration" class="Symfony\Bundle\MakerBundle\Maker\MakeMigration">
       <tag name="maker.command"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase</argument>
     </service>
     <service id="doctrine.dbal.logger.chain" class="Doctrine\DBAL\Logging\LoggerChain">
       <argument type="collection">
@@ -4640,7 +4703,7 @@
         </service>
       </argument>
     </service>
-    <service id=".1_ServiceLocator~So5OGW7" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".1_ServiceLocator~i.HUcFj" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <argument type="collection"/>
     </service>
     <service id="doctrine.orm.proxy_cache_warmer" class="Symfony\Bridge\Doctrine\CacheWarmer\ProxyCacheWarmer">
@@ -4661,7 +4724,7 @@
       <factory class="Doctrine\ORM\EntityManager" method="create"/>
     </service>
     <service id="doctrine.orm.container_repository_factory" class="Doctrine\Bundle\DoctrineBundle\Repository\ContainerRepositoryFactory">
-      <argument type="service" id=".service_locator.PGfkGQD"/>
+      <argument type="service" id=".service_locator.eYvVR6m"/>
     </service>
     <service id="doctrine.orm.manager_configurator.abstract" class="Doctrine\Bundle\DoctrineBundle\ManagerConfigurator" abstract="true">
       <argument type="collection"/>
@@ -4841,7 +4904,7 @@
         <argument type="service" id=".doctrine.orm.default_metadata_driver"/>
       </call>
       <call method="setProxyDir">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/doctrine/orm/Proxies</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/doctrine/orm/Proxies</argument>
       </call>
       <call method="setProxyNamespace">
         <argument>Proxies</argument>
@@ -4871,12 +4934,12 @@
     <service id="doctrine.orm.default_annotation_metadata_driver" class="Doctrine\ORM\Mapping\Driver\AnnotationDriver">
       <argument type="service" id="annotations.cached_reader"/>
       <argument type="collection">
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/src/Entity</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/src/Entity</argument>
       </argument>
     </service>
     <service id="doctrine.orm.default_xml_metadata_driver" class="Doctrine\ORM\Mapping\Driver\SimplifiedXmlDriver">
       <argument type="collection">
-        <argument key="/home/julien/Documents/Projet/testDev-testing_branch/vendor/vich/uploader-bundle/config/doctrine">Vich\UploaderBundle\Entity</argument>
+        <argument key="/home/julien/Documents/Projet/Business_Case(dev)/businessCase/vendor/vich/uploader-bundle/config/doctrine">Vich\UploaderBundle\Entity</argument>
       </argument>
       <call method="setGlobalBasename">
         <argument>mapping</argument>
@@ -4945,7 +5008,7 @@
     <service id="doctrine.migrations.configuration" class="Doctrine\Migrations\Configuration\Configuration">
       <call method="addMigrationsDirectory">
         <argument>DoctrineMigrations</argument>
-        <argument>/home/julien/Documents/Projet/testDev-testing_branch/migrations</argument>
+        <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/migrations</argument>
       </call>
       <call method="setAllOrNothing">
         <argument>false</argument>
@@ -6072,7 +6135,7 @@
       </argument>
     </service>
     <service id="vich_uploader.metadata.cache.file_cache" class="Metadata\Cache\FileCache">
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/vich_uploader</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/vich_uploader</argument>
     </service>
     <service id="vich_uploader.metadata_factory" class="Metadata\MetadataFactory">
       <argument type="service" id="vich_uploader.metadata_driver.chain"/>
@@ -6087,7 +6150,7 @@
     </service>
     <service id="Vich\UploaderBundle\Metadata\CacheWarmer" class="Vich\UploaderBundle\Metadata\CacheWarmer">
       <tag name="kernel.cache_warmer"/>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/vich_uploader</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/vich_uploader</argument>
       <argument type="service" id="vich_uploader.metadata_reader"/>
     </service>
     <service id="vich_uploader.property_mapping_factory" class="Vich\UploaderBundle\Mapping\PropertyMappingFactory">
@@ -6204,6 +6267,80 @@
       <argument type="service" id="vich_uploader.metadata_reader"/>
       <argument type="service" id="vich_uploader.upload_handler"/>
     </service>
+    <service id=".1_ServiceLocator~0eE9oYJ" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="webpack_encore.entrypoint_lookup_collection" type="service_closure" id="webpack_encore.entrypoint_lookup_collection"/>
+        <argument key="webpack_encore.tag_renderer" type="service_closure" id="webpack_encore.tag_renderer"/>
+      </argument>
+    </service>
+    <service id="webpack_encore.entrypoint_lookup_collection" class="Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollection">
+      <argument type="service" id=".service_locator.Yi4Ff.p"/>
+      <argument>_default</argument>
+    </service>
+    <service id="webpack_encore.tag_renderer" class="Symfony\WebpackEncoreBundle\Asset\TagRenderer">
+      <tag name="kernel.reset" method="reset"/>
+      <argument type="service" id="webpack_encore.entrypoint_lookup_collection"/>
+      <argument type="service" id="assets.packages"/>
+      <argument type="collection"/>
+      <argument type="collection">
+        <argument key="defer">true</argument>
+      </argument>
+      <argument type="collection"/>
+      <argument type="service" id="debug.event_dispatcher"/>
+    </service>
+    <service id="webpack_encore.twig_entry_files_extension" class="Symfony\WebpackEncoreBundle\Twig\EntryFilesTwigExtension">
+      <tag name="twig.extension"/>
+      <argument type="service" id=".1_ServiceLocator~0eE9oYJ"/>
+    </service>
+    <service id="webpack_encore.twig_stimulus_extension" class="Symfony\WebpackEncoreBundle\Twig\StimulusTwigExtension">
+      <tag name="twig.extension"/>
+    </service>
+    <service id="webpack_encore.entrypoint_lookup.cache_warmer" class="Symfony\WebpackEncoreBundle\CacheWarmer\EntrypointCacheWarmer">
+      <tag name="kernel.cache_warmer"/>
+      <argument type="collection">
+        <argument key="_default">/home/julien/Documents/Projet/Business_Case(dev)/businessCase/public/build/entrypoints.json</argument>
+      </argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/webpack_encore.cache.php</argument>
+    </service>
+    <service id="webpack_encore.cache" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/webpack_encore.cache.php</argument>
+      <argument type="service" id="cache.webpack_encore"/>
+      <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
+    </service>
+    <service id="cache.webpack_encore" class="Symfony\Component\Cache\Adapter\TraceableAdapter">
+      <tag name="cache.pool"/>
+      <tag name="kernel.reset" method="reset"/>
+      <argument type="service" id="cache.webpack_encore.recorder_inner"/>
+    </service>
+    <service id="webpack_encore.exception_listener" class="Symfony\WebpackEncoreBundle\EventListener\ExceptionListener">
+      <tag name="kernel.event_listener" event="kernel.exception"/>
+      <argument type="service" id="webpack_encore.entrypoint_lookup_collection"/>
+      <argument type="collection">
+        <argument>_default</argument>
+      </argument>
+    </service>
+    <service id="Symfony\WebpackEncoreBundle\EventListener\ResetAssetsEventListener" class="Symfony\WebpackEncoreBundle\EventListener\ResetAssetsEventListener">
+      <tag name="kernel.event_subscriber"/>
+      <tag name="container.hot_path"/>
+      <argument type="service" id="webpack_encore.entrypoint_lookup_collection"/>
+      <argument type="collection">
+        <argument>_default</argument>
+      </argument>
+    </service>
+    <service id="webpack_encore.entrypoint_lookup[_default]" class="Symfony\WebpackEncoreBundle\Asset\EntrypointLookup">
+      <tag name="kernel.reset" method="reset"/>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/public/build/entrypoints.json</argument>
+      <argument>null</argument>
+      <argument>_default</argument>
+      <argument>true</argument>
+    </service>
+    <service id=".service_locator.Yi4Ff.p" class="Symfony\Component\DependencyInjection\ServiceLocator">
+      <tag name="container.service_locator"/>
+      <argument type="collection">
+        <argument key="_default" type="service_closure" id="webpack_encore.entrypoint_lookup[_default]"/>
+      </argument>
+    </service>
     <service id=".instanceof.Symfony\Contracts\Service\ServiceSubscriberInterface.0.App\Controller\AddressController" class="App\Controller\AddressController" autowire="true" abstract="true"/>
     <service id=".instanceof.Symfony\Bundle\FrameworkBundle\Controller\AbstractController.0.App\Controller\AddressController" class="App\Controller\AddressController" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Controller\AddressController" class="App\Controller\AddressController" autowire="true" autoconfigure="true" abstract="true"/>
@@ -6244,6 +6381,8 @@
     <service id=".abstract.instanceof.App\Repository\AdressRepository" class="App\Repository\AdressRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\AnimalRepository" class="App\Repository\AnimalRepository" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Repository\AnimalRepository" class="App\Repository\AnimalRepository" autowire="true" autoconfigure="true" abstract="true"/>
+    <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\CartRepository" class="App\Repository\CartRepository" autowire="true" abstract="true"/>
+    <service id=".abstract.instanceof.App\Repository\CartRepository" class="App\Repository\CartRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" abstract="true"/>
     <service id=".abstract.instanceof.App\Repository\CategoryRepository" class="App\Repository\CategoryRepository" autowire="true" autoconfigure="true" abstract="true"/>
     <service id=".instanceof.Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepositoryInterface.0.App\Repository\PictureRepository" class="App\Repository\PictureRepository" autowire="true" abstract="true"/>
@@ -6655,7 +6794,7 @@
         <argument key="userPasswordHasher" type="service_closure" id="security.user_password_hasher"/>
       </argument>
     </service>
-    <service id=".service_locator.hzu1Zd7" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.GoFrd5B" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Controller\AddressController::change" type="service_closure" id=".service_locator.MTNQajG"/>
@@ -6676,6 +6815,7 @@
         <argument key="App\Controller\AdminController::indexCategories" type="service_closure" id=".service_locator.Ndw0NZG"/>
         <argument key="App\Controller\AdminController::indexProducts" type="service_closure" id=".service_locator.OKj5qXB"/>
         <argument key="App\Controller\AdminController::indexUsers" type="service_closure" id=".service_locator.BE_HSvK"/>
+        <argument key="App\Controller\HomePageController::index" type="service_closure" id=".service_locator.OKj5qXB"/>
         <argument key="App\Controller\ProductController::index" type="service_closure" id=".service_locator.OKj5qXB"/>
         <argument key="App\Controller\ProfileController::change" type="service_closure" id=".service_locator.cdptobR"/>
         <argument key="App\Controller\ProfileController::changePassword" type="service_closure" id=".service_locator.vVC90Af"/>
@@ -6705,6 +6845,7 @@
         <argument key="App\Controller\AdminController:indexCategories" type="service_closure" id=".service_locator.Ndw0NZG"/>
         <argument key="App\Controller\AdminController:indexProducts" type="service_closure" id=".service_locator.OKj5qXB"/>
         <argument key="App\Controller\AdminController:indexUsers" type="service_closure" id=".service_locator.BE_HSvK"/>
+        <argument key="App\Controller\HomePageController:index" type="service_closure" id=".service_locator.OKj5qXB"/>
         <argument key="App\Controller\ProductController:index" type="service_closure" id=".service_locator.OKj5qXB"/>
         <argument key="App\Controller\ProfileController:change" type="service_closure" id=".service_locator.cdptobR"/>
         <argument key="App\Controller\ProfileController:changePassword" type="service_closure" id=".service_locator.vVC90Af"/>
@@ -6996,11 +7137,12 @@
       <argument type="service" id="cache.doctrine.orm.default.result"/>
       <factory class="Doctrine\Common\Cache\Psr6\DoctrineProvider" method="wrap"/>
     </service>
-    <service id=".service_locator.PGfkGQD" class="Symfony\Component\DependencyInjection\ServiceLocator">
+    <service id=".service_locator.eYvVR6m" class="Symfony\Component\DependencyInjection\ServiceLocator">
       <tag name="container.service_locator"/>
       <argument type="collection">
         <argument key="App\Repository\AdressRepository" type="service_closure" id="App\Repository\AdressRepository"/>
         <argument key="App\Repository\AnimalRepository" type="service_closure" id="App\Repository\AnimalRepository"/>
+        <argument key="App\Repository\CartRepository" type="service_closure" id="App\Repository\CartRepository"/>
         <argument key="App\Repository\CategoryRepository" type="service_closure" id="App\Repository\CategoryRepository"/>
         <argument key="App\Repository\PictureRepository" type="service_closure" id="App\Repository\PictureRepository"/>
         <argument key="App\Repository\ProductRepository" type="service_closure" id="App\Repository\ProductRepository"/>
@@ -7284,12 +7426,12 @@
       <argument type="service" id="security.token_storage"/>
     </service>
     <service id="debug.argument_resolver.service.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\ServiceValueResolver">
-      <argument type="service" id=".service_locator.hzu1Zd7"/>
+      <argument type="service" id=".service_locator.GoFrd5B"/>
     </service>
     <service id="debug.argument_resolver.default.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\DefaultValueResolver"/>
     <service id="debug.argument_resolver.variadic.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\VariadicValueResolver"/>
     <service id="debug.argument_resolver.not_tagged_controller.inner" class="Symfony\Component\HttpKernel\Controller\ArgumentResolver\NotTaggedControllerValueResolver">
-      <argument type="service" id=".service_locator.hzu1Zd7"/>
+      <argument type="service" id=".service_locator.GoFrd5B"/>
     </service>
     <service id=".debug.http_client.inner" class="Symfony\Contracts\HttpClient\HttpClientInterface">
       <argument type="collection"/>
@@ -7939,69 +8081,77 @@
       </argument>
     </service>
     <service id="cache.app.recorder_inner" class="Symfony\Component\Cache\Adapter\FilesystemAdapter">
-      <argument>v204hzASZq</argument>
+      <argument>FRSfOiUxlX</argument>
       <argument>0</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/app</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/app</argument>
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       </call>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>KeF+GCgmt0</argument>
+      <argument>NDlyG5SSna</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>ff-EM26uG5</argument>
+      <argument>IWk+ekZauv</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>h4KcyAG0a4</argument>
+      <argument>8tZddREwnK</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>wNiMKxhLk7</argument>
+      <argument>aGME8heqwx</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.property_info.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>Rw7-AmO57N</argument>
+      <argument>iq8LyF0Eza</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>IsQZqDMgdM</argument>
+      <argument>TRIu3FN6vU</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.doctrine.orm.default.result.recorder_inner" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
     <service id="cache.doctrine.orm.default.query.recorder_inner" class="Symfony\Component\Cache\Adapter\ArrayAdapter"/>
     <service id="cache.security_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>Z-zxM3XV6D</argument>
+      <argument>ZKZ26D6goL</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/home/julien/Documents/Projet/testDev-testing_branch/var/cache/dev/pools/system</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
+      <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
+      <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
+    </service>
+    <service id="cache.webpack_encore.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
+      <argument>CquUitI8mH</argument>
+      <argument>0</argument>
+      <argument>%container.build_id%</argument>
+      <argument>/home/julien/Documents/Projet/Business_Case(dev)/businessCase/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -8193,9 +8343,11 @@
     <service id="Vich\UploaderBundle\Handler\UploadHandler" alias="vich_uploader.upload_handler"/>
     <service id="Vich\UploaderBundle\Form\Type\VichFileType" alias="vich_uploader.form.type.file"/>
     <service id="Vich\UploaderBundle\Form\Type\VichImageType" alias="vich_uploader.form.type.image"/>
+    <service id="Symfony\WebpackEncoreBundle\Asset\EntrypointLookupCollectionInterface" alias="webpack_encore.entrypoint_lookup_collection"/>
+    <service id="Symfony\WebpackEncoreBundle\Asset\EntrypointLookupInterface" alias="webpack_encore.entrypoint_lookup[_default]"/>
     <service id="container.env_var_processors_locator" alias=".service_locator.gSv9zYw" public="true"/>
     <service id="twig.loader.filesystem" alias="twig.loader.native_filesystem"/>
-    <service id="argument_resolver.controller_locator" alias=".service_locator.hzu1Zd7"/>
+    <service id="argument_resolver.controller_locator" alias=".service_locator.GoFrd5B"/>
     <service id="session" alias=".session.do-not-use" public="true">
       <deprecated package="symfony/framework-bundle" version="5.3">The "%alias_id%" service and "SessionInterface" alias are deprecated, use "$requestStack-&gt;getSession()" instead.</deprecated>
     </service>
@@ -8215,6 +8367,7 @@
     <service id="Psr\Log\LoggerInterface $securityLogger" alias="monolog.logger.security"/>
     <service id="Psr\Log\LoggerInterface $deprecationLogger" alias="monolog.logger.deprecation"/>
     <service id="doctrine.id_generator_locator" alias=".service_locator.KLVvNIq"/>
+    <service id=".service_locator.XDGmiR3" alias=".1_ServiceLocator~0eE9oYJ"/>
     <service id=".service_locator.0GV1BZZ" alias=".service_locator.gSv9zYw"/>
     <service id=".service_locator.0PwG8tp" alias=".service_locator.o_Rpns3"/>
     <service id=".service_locator.dY4.KUx" alias=".service_locator.UhIBCzx"/>
@@ -8223,7 +8376,7 @@
     <service id=".service_locator.nJLgal9" alias=".service_locator.cMgpYgF"/>
     <service id=".service_locator.KhRnsLN" alias=".service_locator.vVC90Af"/>
     <service id=".service_locator.Dby0_1s" alias=".service_locator.4u5os03"/>
-    <service id=".service_locator..XIfYEz" alias=".service_locator.hzu1Zd7"/>
+    <service id=".service_locator.qTBCmvt" alias=".service_locator.GoFrd5B"/>
     <service id=".service_locator.wKF4yn1" alias=".service_locator.19_mNxd"/>
     <service id=".service_locator.sAqYF9M" alias=".service_locator.fCFexTh"/>
     <service id=".service_locator.Fi65qnD" alias=".service_locator.D5RiGbz"/>
